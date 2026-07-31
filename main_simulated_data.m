@@ -2,6 +2,12 @@
 %% Torus CT reconstruction from simulated data
 % 23.6.2026
 
+% Note:
+% Some implementation details follow the conventions used by MATLAB's 
+% Image Processing Toolbox tomography functions.
+% As a result, certain variables and parametrizations may differ slightly 
+% from the notation used in the accompanying article.
+
 close all; clearvars; clc;
 
 %% Configuration 
