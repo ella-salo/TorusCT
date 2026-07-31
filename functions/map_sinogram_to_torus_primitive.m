@@ -44,7 +44,7 @@ for ii = 1:length(xx)
         proj_vals = interpolateProjection(sino_unit(:,p),(X(:,1)-0.5),-det_px_d); % note -det_px_d
         Xdata = proj_vals;
     else
-        % other directionTes than axes, interpolation distances are
+        % other directions than axes, interpolation distances are
         % solved based on the constructed geodesic
         p = (xx(:) / k1) == (yy(:) / k2);
         if sum(p) ~= 1
