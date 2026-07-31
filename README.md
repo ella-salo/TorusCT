@@ -15,7 +15,7 @@ This repository contains implementations of
 
 
 <div align="center">
-<img src="walnut_reconstruction_example.png" alt="example" width="45%" style="margin-right: 10px;" /> 
+<img src="walnut_reconstruction_example.png" alt="example" width="50%" style="margin-right: 10px;" /> 
 </div>
 <p align="center">
   <em>Experimental walnut reconstructions using Torus CT, Star TCT, TBP and FBP with a Fourier coefficient box size N=50.</em>
