@@ -65,18 +65,13 @@ axis off
 
 [target, sample] = create_sample(sample_mode, target_res, sample_res);
 
-% Take radon.m of angles (-thetas) since radon.m measures angles from
-% the y - axis clockwise. This makes it counterclockwise.
-
 [sino_for_torusCT, det_px_d] = radon(sample,-thetas);
 sino_for_torusCT = sino_for_torusCT + noiselevel * max(abs(sino_for_torusCT(:))) .* randn(size(sino_for_torusCT));
 
-det_px_d = -det_px_d; % Change the order to fit our measurement setup of counterclockwise angles.
+det_px_d = -det_px_d; % Change the order to fit our measurement setup.
 
 % Each column sino(:, thetas(i)) contains data which is perpendicular to
-% geodesic segment at angle thetas(i) which is needed for the torus
-% reconstruction
-
+% geodesic segment at angle thetas(i).
 
 %% RECONSTRUCTION ON THE TORUS
 
