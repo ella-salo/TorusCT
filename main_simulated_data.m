@@ -10,7 +10,7 @@
 
 close all; clearvars; clc;
 
-%% Configuration 
+%% Configuration
 addpath('functions\')
 
 % Method
