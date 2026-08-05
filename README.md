@@ -39,7 +39,7 @@ To reproduce the experimental data experiments, run
 
 ## Walnut dataset
 
-The original dataset is licensed under CC BY 4.0. Users should cite the original dataset publication when using the data. 
+The data set used in the experiments is an open-source data set:
 
 K. Hämäläinen, L. Harhanen, A. Kallonen, A. Kujanpää, E. Niemi and S. Siltanen *Tomographic X-ray data of a walnut*.
 
@@ -52,6 +52,8 @@ https://doi.org/10.5281/zenodo.1254206.
 The reconstructions use the dataset `sinogram1200` stored in `FullSizeSinograms.mat`.
 
 The required data are provided in the folder `walnut_data`.
+
+The original dataset is licensed under CC BY 4.0. Users should cite the original dataset publication when using the data. 
 
 ## Acknowledgements
 
