@@ -1,6 +1,6 @@
 
 %% Torus CT reconstruction from simulated data
-% 26.6.2026
+% 5.8.2025
 
 close all; clearvars; clc;
 
