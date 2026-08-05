@@ -61,7 +61,7 @@ J. Ilmavirta, O. Koskela and J. Railo, *Torus Computed Tomography*, arXiv:1906.0
 The original MATLAB implementation of Torus CT was developed by
 O. Koskela and J. Railo, *MATLAB implementation of Torus CT*, Zenodo, 2019, https://doi.org/10.5281/zenodo.3243363.
 
-The development of this repository was based on an unpublished research version of the Torus CT MATLAB codes provided by O. Koskela and J. Railo. The code in this repository has been revised, corrected, and substantially extended to support experimental fan-beam datasets, Star TCT, Torus Backprojection (TBP), filtered TBP methods, positivity-constrained reconstructions, and additional numerical experiments.
+The development of this repository was based on an unpublished research version of the Torus CT MATLAB codes. The code in this repository has been revised, corrected, and substantially extended to support experimental fan-beam datasets, Star TCT, Torus Backprojection (TBP), filtered TBP methods, positivity-constrained reconstructions, and additional numerical experiments.
 
 The synthetic-data generation used for the FBP comparison follows the no-inverse-crime methodology of
 J. L. Mueller and S. Siltanen, *Linear and Nonlinear Inverse Problems with Practical Applications*, SIAM, 2012.
