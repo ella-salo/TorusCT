@@ -39,7 +39,7 @@ To reproduce the experimental data experiments, run
 
 ## Walnut dataset
 
-The experimental examples use the walnut dataset:
+The original dataset is licensed under CC BY 4.0. Users should cite the original dataset publication when using the data. 
 
 K. Hämäläinen, L. Harhanen, A. Kallonen, A. Kujanpää, E. Niemi and S. Siltanen *Tomographic X-ray data of a walnut*.
 
