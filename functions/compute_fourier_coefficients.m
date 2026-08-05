@@ -22,17 +22,17 @@ for i = 1:size(k_sino_data,1)
     Dv = k_sino_data(i,3:end);
     if k1 == 0 && k2 == 0
         fhat(i) = DFT(Dv,0,exp_kl);
-    elseif k2 ~= 0
-        if k2 > 0
-            fhat(i) = DFT(Dv,k2,exp_kl);
-        else
-            fhat(i) = DFT(Dv,-k2,iexp_kl);
-        end
     elseif k1 ~= 0
         if k1 > 0
             fhat(i) = DFT(Dv,k1,exp_kl);
         else
             fhat(i) = DFT(Dv,-k1,iexp_kl);
+        end
+    elseif k2 ~= 0
+        if k2 > 0
+            fhat(i) = DFT(Dv,k2,exp_kl);
+        else
+            fhat(i) = DFT(Dv,-k2,iexp_kl);
         end
     else
         error('Unexpected case: k1 = %i, k2 = %i', k1, k2);
