@@ -70,7 +70,7 @@ J. L. Mueller and S. Siltanen, *Linear and Nonlinear Inverse Problems with Pract
 
 In particular, the implementation of `create_radon_data_no_crime.m` follows the supplementary MATLAB example `XRA_NoCrimeData_comp.m` accompanying the book.
 
-%% License
+## License
 
 The MATLAB code in this repository is licensed under the Creative Commons Attribution International License (CC BY 4.0).
 
