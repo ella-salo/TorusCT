@@ -20,11 +20,11 @@ sample_res = 512;
 noiselevel = 0.02; % in [0, 1]
 
 % Fourier coefficient box size
-N = 25;  % Fourier coefficients inside a box of size (2N)^2
-N2 = 50; % StarTCT: extended frequency set K_{N,N2}
+N = 10;  % Fourier coefficients inside a box of size (2N)^2
+N2 = 20; % StarTCT: extended frequency set K_{N,N2}
 
 % Regularization parameters
-alpha = 5*10^-6;
+alpha = 1*10^-6;
 s = 1.25;
 
 % TBP regularization
