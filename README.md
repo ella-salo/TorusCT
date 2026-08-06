@@ -1,6 +1,6 @@
 # Torus Computed Tomography
 
-MATLAB implementation of Torus Computed Tomography (Torus CT) and its extensions developed in
+MATLAB implementation of Torus Computed Tomography (Torus CT) and its extensions developed for
 
  E. Salo, A. Meaney, O. Koskela and J. Railo *Torus Computed Tomography for Experimental Data*.
 
@@ -69,3 +69,10 @@ The synthetic-data generation used for the FBP comparison follows the no-inverse
 J. L. Mueller and S. Siltanen, *Linear and Nonlinear Inverse Problems with Practical Applications*, SIAM, 2012.
 
 In particular, the implementation of `create_radon_data_no_crime.m` follows the supplementary MATLAB example `XRA_NoCrimeData_comp.m` accompanying the book.
+
+%% License
+
+The MATLAB code in this repository is licensed under the Creative Commons Attribution International License (CC BY 4.0).
+
+A copy of the license is provided in the LICENSE file. The license text is also available at
+https://creativecommons.org/licenses/by/4.0/
