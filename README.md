@@ -66,9 +66,7 @@ O. Koskela and J. Railo, *MATLAB implementation of Torus CT*, Zenodo, 2019, http
 The development of this repository was based on an unpublished research version of the Torus CT MATLAB codes. The code in this repository has been revised, corrected, and substantially extended to support experimental fan-beam datasets, Star TCT, Torus Backprojection (TBP), filtered TBP methods, positivity-constrained reconstructions, and additional numerical experiments.
 
 The synthetic-data generation used for the FBP comparison follows the no-inverse-crime methodology of
-J. L. Mueller and S. Siltanen, *Linear and Nonlinear Inverse Problems with Practical Applications*, SIAM, 2012.
-
-In particular, the implementation of `create_radon_data_no_crime.m` follows the supplementary MATLAB example `XRA_NoCrimeData_comp.m` accompanying the book.
+J. L. Mueller and S. Siltanen, *Linear and Nonlinear Inverse Problems with Practical Applications*, SIAM, 2012. In particular, the implementation of `create_radon_data_no_crime.m` follows the supplementary MATLAB example `XRA_NoCrimeData_comp.m` accompanying the book.
 
 ## License
 
