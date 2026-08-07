@@ -50,7 +50,7 @@ scatter(xx_all,yy_all,'k.');
 scatter(xx,yy,'ko')
 axis square
 grid on
-sgtitle('All coefficients and primitive rational directions')
+sgtitle({'Fourier coefficients inside box [-N,N]^2',' and primitive rational directions'})
 subplot(1,2,2)
 hold on
 for i = 1:length(thetas)
