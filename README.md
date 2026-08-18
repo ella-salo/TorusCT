@@ -1,8 +1,8 @@
 # Torus Computed Tomography
 
-MATLAB implementation of Torus Computed Tomography (Torus CT) and its extensions developed for
+MATLAB implementation of torus computed tomography (Torus CT) and its extensions developed for
 
- E. Salo, A. Meaney, O. Koskela and J. Railo *Torus Computed Tomography for Experimental Data*.
+Ella Salo, Alexander Meaney, Olli Koskela, and Jesse Railo *Torus computed tomography for experimental data*, 2026, [arxiv:2608.16453](https://arxiv.org/abs/2608.16453)
 
 Torus CT is a Fourier-based tomographic reconstruction method built on the geodesic X-ray transform on the flat torus. The method recovers Fourier coefficients from projection data measured along closed geodesic directions. Star TCT extends the recoverable frequency range, while Torus Backprojection (TBP) provides an alternative reconstruction approach based on summation over torus directions.
 
